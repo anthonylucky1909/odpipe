@@ -46,8 +46,6 @@ Thumbs.db
 # Jupyter Notebook
 .ipynb_checkpoints/
 
-# IDE / editor files
+# IDE files
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace

@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "images": [],
+  "tables": [],
+  "forms": [],
+  "handwritten_content": [],
+  "metadata": {
+    "file_name": "R7RUWIVERCT2LRQCIKTTVL3SXF4P4HEP.pdf",
+    "file_size": 92669,
+    "page_count": 2,
+    "extraction_method": "pdfminer + tabula",
+    "text_length": 0,
+    "tables_found": 0,
+    "forms_found": 0,
+    "images_found": 0,
+    "handwritten_items_found": 0
+  },
+  "file_info": {
+    "filename": "R7RUWIVERCT2LRQCIKTTVL3SXF4P4HEP.pdf",
+    "file_size": 92669,
+    "file_path": "./data/input/Pdf/R7RUWIVERCT2LRQCIKTTVL3SXF4P4HEP.pdf"
+  }
+}
