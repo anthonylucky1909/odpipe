@@ -1,0 +1,29 @@
+pipeline:
+  input_directory: "./data/input/Pdf"
+  output_directory: "./data/output"
+  processed_directory: "./data/processed"
+  file_extensions: [".pdf", ".docx", ".txt"]
+  batch_size: 10
+  max_file_size_mb: 50
+
+parsing:
+  use_deep_learning: true
+  extract_tables: true
+  extract_text: true
+  extract_forms: true
+  extract_handwritten: false
+  extract_metadata: true
+  extract_images: false
+  language: "en"
+  timeout_seconds: 300
+
+output:
+  format: "json"   
+  folder: "./data/output"
+  overwrite_existing: false
+  include_original: false
+  compress_output: false
+
+logging:
+  level: "INFO"
+  log_file: "./pipeline.log"
